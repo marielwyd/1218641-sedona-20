@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class='page' lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body class='page__body'>
+
+  <header class='page-header'>
+
+    <a class='page-header__logo'>
+
+      <img alt='' src="https://via.placeholder.com/150x150">
+
+    </a>
+
+    <nav class='main-nav'>
+      <button class='main-nav__toggle' type='button'>
+        <span class='visually-hidden'>Открыть меню</span>
+      </button>
+      <div class='main-nav__wrapper'>
+        <ul class='main-nav__list site-list'>
+
+          <li class='site-list__item site-list__item--active'>
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class='site-list__item site-list__item--active'>
+            <a href='photo.html'>
+              Фото и видео
+            </a>
+          </li>
+          <li class='site-list__item site-list__item--active'>
+            <a href='form.html'>
+              Форма отзыва
+            </a>
+          </li>
+          <li class='site-list__item site-list__item--active'>
+            <a href='#'>
+              HTML ACADEMY
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class='header-background'>
+      <p class='header-background__text'>SEDONA</p>
+    </div>
+  </header>
+  <main class='page-main'>
+    <div class='intro'>
+      <img alt='' src="https://via.placeholder.com/150x150">
+    </div>
+
+    <h1 class='page-main__title'>Оставьте свой отзыв</h1>
+    <p class='page-main__text'>Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+
+
+    <form class='main-form' action='https://echo.htmlacademy.ru'>
+      <h2 class='main-form__title'>Представьтесь:</h2>
+      <div class='main-form__name'>
+            <label for="name">Имя:</label>
+            <input type="text" name="name" id = "name" required>
+          </div>
+
+      <div class='main-form__name'>
+            <label for="surname">Фамилия:</label>
+            <input type="text" name="surname" id = "surname" required>
+          </div>
+      <div class='main-form__name'>
+            <label for="patronymic">Отчество:</label>
+            <input type="text" name="patronymic" id = "patronymic" required>
+          </div>
+
+      <h2 class='main-form__title'>Контактная информация:</h2>
+      <div class='main-form__contact-info'>
+            <label for="phone-number">Контактный телефон:</label>
+            <input type="text" name="phone-number" id = "phone-number" value='Введите телефон' required>
+            <img alt='' src="https://via.placeholder.com/150x150">
+          </div>
+      <div class='main-form__contact-info'>
+            <label for="email">Электронная почта*:</label>
+            <input type="text" name="email" id = "email" value='Введите e-mail' required>
+            <img alt='' src="https://via.placeholder.com/150x150">
+          </div>
+
+      <h2 class='main-form__title'>Ваше общее впечатление:</h2>
+      <div class="main-radio">
+            <label class='main-radio__value'>
+              <input type="radio" name="impression" value="Скорее положительное">Скорее положительное
+            </label>
+            <label class='main-radio__value'>
+              <input type="radio" name="impression" value="Скорее отрицательное">Скорее отрицательное
+            </label>
+      <label class='main-radio__value'>
+              <input type="radio" name="impression" value="Затрудняюсь ответить"> Затрудняюсь ответить
+            </label>
+          </div>
+
+
+      <h2 class='main-form__title'>Посещенные достопримечательности:</h2>
+       <label class="main-form__checkbox">Мост Дьявола
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+      </label>
+
+      <label class="main-form__checkbox">Гора-Колокол
+          <input type="checkbox">
+          <span class="checkmark"></span>
+      </label>
+
+      <label class="main-form__checkbox">Слайд-парк
+          <input type="checkbox">
+          <span class="checkmark"></span>
+      </label>
+
+      <label class="main-form__checkbox">Красные скалы
+          <input type="checkbox">
+          <span class="checkmark"></span>
+      </label>
+
+      <h2 class='main-form__title'>Опишите свои эмоции:</h2>
+      <textarea class='main-form__description'>Опишите подбробно все свои восторги</textarea>
+
+       <button class='main-form__button' type='button'>
+              <span class=''>Отправить отзыв</span>
+            </button>
+    </form>
+
+
+  </main>
+  <footer class='page-footer'>
+    <div class='page-footer__wrapper'>
+      <span class='page-footer__hashtag'>#VisitSedona</span>
+
+      <menu class='footer-menu'>
+        <li class='footer-menu__item'>
+          <a href='#'><img alt='' src="https://via.placeholder.com/150x150"></a>
+        </li>
+        <li class='footer-menu__item'>
+          <a href='#'><img alt='' src="https://via.placeholder.com/150x150"></a>
+        </li>
+        <li class='footer-menu__item'>
+          <a href='#'><img alt='' src="https://via.placeholder.com/150x150"></a>
+        </li>
+      </menu>
+
+      <div class='credits'>
+        <p class='credits__text'>Разработано</p>
+        <img alt='' src="https://via.placeholder.com/150x150">
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
