@@ -1,7 +1,11 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Мария Родионова](https://up.htmlacademy.ru/adaptive/20/user/1218641).
+<<<<<<< HEAD
+* Наставник: [Ирина Фролова](https://htmlacademy.ru/profile/id1043867).
+=======
 * Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml)
+>>>>>>> 9879b830bb41b5531eee0b800eca93858196a01d
 
 ---
 
