@@ -58,102 +58,105 @@
     </div>
 
     <h1 class='page-main__title'>Оставьте свой отзыв</h1>
-    <p class='page-main__text'>Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    <p class='page-main__text'>Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами
+      достопримечательностях</p>
 
 
-    <form class='name-form' action='https://echo.htmlacademy.ru'>
+    <form class='form' action='https://echo.htmlacademy.ru'>
 
-<fieldset class='group_name'>
+      <fieldset class='group-name'>
 
-      <legend class='group_name__title'>Представьтесь:</legend>
-      <div class='group_name__name'>
-            <label for="name">Имя:</label>
-            <input type="text" name="name" id = "name" required>
-          </div>
+        <legend class='group-name__title'>Представьтесь:</legend>
+        <div class='group-name__name'>
+          <label for="name">Имя:</label>
+          <input type="text" name="name" id="name" required>
+        </div>
 
-      <div class='group_name__name'>
-            <label for="surname">Фамилия:</label>
-            <input type="text" name="surname" id = "surname" required>
-          </div>
-      <div class='group_name__name'>
-            <label for="patronymic">Отчество:</label>
-            <input type="text" name="patronymic" id = "patronymic" required>
-          </div>
+        <div class='group-name__name'>
+          <label for="surname">Фамилия:</label>
+          <input type="text" name="surname" id="surname" required>
+        </div>
+        <div class='group-name__name'>
+          <label for="patronymic">Отчество:</label>
+          <input type="text" name="patronymic" id="patronymic" required>
+        </div>
 
 
-        </fieldset> </form>
+      </fieldset>
 
-        <form class='contacts-form' action='https://echo.htmlacademy.ru'>
-        <fieldset class='group_contacts'>
 
-      <h2 class='group_contacts__title'>Контактная информация:</h2>
-      <div class='group_contacts__contact-info'>
-            <label for="phone-number">Контактный телефон:</label>
-            <input type="text" name="phone-number" id = "phone-number" value='Введите телефон' required>
+      <fieldset class='group-contacts'>
 
-          </div>
-      <div class='group_contacts__contact-info'>
-            <label for="email">Электронная почта*:</label>
-            <input type="text" name="email" id = "email" value='Введите e-mail' required>
+        <legend class='group-contacts__title'>Контактная информация:</legend>
+        <div class='group-contacts__contact-info'>
+          <label for="phone-number">Контактный телефон:</label>
+          <input type="tel" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}"> name="phone-number" id =
+          "phone-number" value='Введите телефон' required>
 
-          </div>
+        </div>
+        <div class='group-contacts__contact-info'>
+          <label for="email">Электронная почта*:</label>
+          <input type="email" name="email" id="email" value='Введите e-mail' required>
 
-          </fieldset> </form>
+        </div>
 
-          <form class='impression-form' action='https://echo.htmlacademy.ru'>
-        <fieldset class='group_impression'>
-      <h2 class='group_impression__title'>Ваше общее впечатление:</h2>
-      <ul class="main-radio-list">
-           <li class='main-radio-list__item'> <label class='main-radio__value'>
+      </fieldset>
+
+
+      <fieldset class='group-impression'>
+        <legend class='group-impression__title'>Ваше общее впечатление:</legend>
+        <ul class="main-radio-list">
+          <li class='main-radio-list__item'> <label class='main-radio__value'>
               <input type="radio" name="impression" value="Скорее положительное">Скорее положительное
-            </label>  </li>
-            <li class='main-radio-list__item'>  <label class='main-radio__value'>
+            </label> </li>
+          <li class='main-radio-list__item'> <label class='main-radio__value'>
               <input type="radio" name="impression" value="Скорее отрицательное">Скорее отрицательное
             </label> </li>
-            <li class='main-radio-list__item'>  <label class='main-radio__value'>
+          <li class='main-radio-list__item'> <label class='main-radio__value'>
               <input type="radio" name="impression" value="Затрудняюсь ответить"> Затрудняюсь ответить
-            </label>  </li>
-          </ul>
-        </fieldset> </form>
+            </label> </li>
+        </ul>
+      </fieldset>
 
-        <form class='places-form' action='https://echo.htmlacademy.ru'>
-      <fieldset class='group_places'>
-        <h2 class='group_places__title'>Посещенные достопримечательности:</h2>
-      <ul class='group_places_list'>
 
-      <li class='group_places_list__item'> <label for="checkbox1" class="group_places_checkbox">Мост Дьявола
-          <input name="group_places__checkbox_name" id="checkbox1" type="checkbox" checked="checked">
-          <span class="checkmark"></span>
-      </label> </li>
+      <fieldset class='group-places'>
+        <legend class='group-places__title'>Посещенные достопримечательности:</legend>
+        <ul class='group-places_list'>
 
-    <li class='group_places_list__item'>  <label for="checkbox2" class="group_places__checkbox">Гора-Колокол
-          <input name="group_places__checkbox_name" id="checkbox2" type="checkbox">
-          <span class="checkmark"></span>
-      </label> </li>
+          <li class='group-places_list__item'> <label class="group-places__checkbox">Мост Дьявола
+              <input name="group-places__checkbox_name" type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label> </li>
 
-     <li class='group_places_list__item'> <label for="checkbox3" class="group_places__checkbox">Слайд-парк
-          <input name="group_places__checkbox_name" id="checkbox3" type="checkbox">
-          <span class="checkmark"></span>
-      </label> </li>
+          <li class='group-places_list__item'> <label class="group-places__checkbox">Гора-Колокол
+              <input name="group-places__checkbox_name" type="checkbox">
+              <span class="checkmark"></span>
+            </label> </li>
 
-    <li class='group_places_list__item'>  <label for="checkbox4" class="group_places__checkbox">Красные скалы
-          <input name="group_places__checkbox_name" id="checkbox4" type="checkbox">
-          <span class="checkmark"></span>
-      </label> </li>
+          <li class='group-places_list__item'> <label class="group-places__checkbox">Слайд-парк
+              <input name="group-places__checkbox_name" type="checkbox">
+              <span class="checkmark"></span>
+            </label> </li>
 
-      </ul>
-    </fieldset> </form>
+          <li class='group-places_list__item'> <label class="group-places__checkbox">Красные скалы
+              <input name="group-places__checkbox_name" type="checkbox">
+              <span class="checkmark"></span>
+            </label> </li>
 
-    <form class='description-form' action='https://echo.htmlacademy.ru'>
-  <fieldset class='group_description'>
-      <h2 class='group_description__title'>Опишите свои эмоции:</h2>
-      <textarea class='group_description__text'>Опишите подбробно все свои восторги</textarea>
+        </ul>
+      </fieldset>
 
-       <button class='group_description__button' type='button'>
-              <span class=''>Отправить отзыв</span>
-            </button>
 
-  </fieldset> </form>
+      <fieldset class='group-description'>
+        <legend class='group-description__title'>Опишите свои эмоции:</legend>
+        <textarea class='group-description__text'>Опишите подбробно все свои восторги</textarea>
+
+        <button class='group-description__button' type='button'>
+          <span class=''>Отправить отзыв</span>
+        </button>
+
+      </fieldset>
+    </form>
 
 
   </main>
