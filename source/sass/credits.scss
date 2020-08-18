@@ -1,1 +1,20 @@
-body { background: blue; }
+.credits {
+min-width: 320px;
+margin: 0 auto;
+}
+
+.credits__text {
+  position: relative;
+  width: 121px;
+  height: 26px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+

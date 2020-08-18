@@ -1,1 +1,36 @@
-body { background: blue; }
+.main-nav__wrapper {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.site-list__item {
+  position: relative;
+  width: 86px;
+  height: 26px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+
+}
+
+.site-list__item--active {
+  position: relative;
+  width: 86px;
+  height: 26px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+
+}

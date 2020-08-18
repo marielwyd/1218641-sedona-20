@@ -1,1 +1,35 @@
-body { background: blue; }
+.page-main {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.page-main__title {
+  position: relative;
+width: 285px;
+height: 162px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.page-main__text {
+  position: relative;
+width: 121px;
+height: 26px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+
+}

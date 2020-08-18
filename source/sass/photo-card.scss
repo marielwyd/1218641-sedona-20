@@ -1,1 +1,47 @@
-body { background: blue; }
+.photo-card {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.photo-card__title {
+  position: relative;
+  width: 142px;
+  height: 43px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+    color: #000000;
+
+}
+
+.photo-card__text {
+  position: relative;
+  width: 121px;
+  height: 26px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.photo-card__number-of-likes {
+  position: relative;
+  width: 53px;
+  height: 24px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+}
