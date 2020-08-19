@@ -1,39 +1,37 @@
 .group-impression {
   min-width: 320px;
   margin: 0 auto;
-  }
+}
 
-  .group-impression__title {
-    position: relative;
-    width: 170px;
-    height: 26px;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-      color: #000000;
+.group-impression__title {
+  position: relative;
+  width: 170px;
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
 
-  }
+.main-radio-list {
+  min-width: 320px;
+  margin: 0 auto;
+}
 
-  .main-radio-list {
-    min-width: 320px;
-    margin: 0 auto;
-  }
-
-  .main-radio-list__item {
-    position: relative;
-width: 215px;
-height: 26px;
-font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-align-items: center;
-color: #000000;
-
-  }
+.main-radio-list__item {
+  position: relative;
+  width: 215px;
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  color: #000000;
+}

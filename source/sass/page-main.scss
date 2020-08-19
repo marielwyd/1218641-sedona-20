@@ -5,31 +5,29 @@
 
 .page-main__title {
   position: relative;
-width: 285px;
-height: 162px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
+  width: 285px;
+  min-height: 162px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .page-main__text {
   position: relative;
-width: 121px;
-height: 26px;
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 26px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
-
+  width: 295px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
 }

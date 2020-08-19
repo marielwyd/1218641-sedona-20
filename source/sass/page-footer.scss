@@ -1,8 +1,8 @@
 .page-footer__hashtag {
   position: relative;
   width: 166px;
-  height: 26px;
-  font-family: 'PT Sans';
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -11,4 +11,5 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  text-decoration: none;
 }

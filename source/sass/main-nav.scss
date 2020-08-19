@@ -6,8 +6,8 @@
 .site-list__item {
   position: relative;
   width: 86px;
-  height: 26px;
-  font-family: 'PT Sans';
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -16,14 +16,14 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-
+  text-decoration: none;
 }
 
 .site-list__item--active {
   position: relative;
   width: 86px;
-  height: 26px;
-  font-family: 'PT Sans';
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -32,5 +32,5 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-
+  text-decoration: none;
 }

@@ -1,13 +1,13 @@
 .credits {
-min-width: 320px;
-margin: 0 auto;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .credits__text {
   position: relative;
-  width: 121px;
-  height: 26px;
-  font-family: 'PT Sans';
+  width: 295px;
+  min-height: 26px;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -16,5 +16,5 @@ margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  text-decoration: none;
 }
-
