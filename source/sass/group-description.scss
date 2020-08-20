@@ -50,10 +50,12 @@
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  width: 280px;
-  min-height: 58px;
+  max-width: 215px;
   background: #81b3d2;
   border: none;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
+  min-height: 58px;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 20px;
 }
