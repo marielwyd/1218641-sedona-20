@@ -32,7 +32,19 @@
   color: #333333;
 }
 
-.group-name__placeholder::placeholder {
+.group-name__input {
+  position: relative;
+  min-width: 67px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  color: #000000;
+}
+
+.group-name__input::placeholder {
   position: relative;
   min-width: 67px;
   font-family: "PT Sans", "Arial", sans-serif;

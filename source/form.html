@@ -25,22 +25,22 @@
         <ul class='main-nav__list site-list'>
 
           <li class='site-list__item site-list__item--active'>
-            <a>
+            <a class='site-list__link'>
               Главная
             </a>
           </li>
           <li class='site-list__item site-list__item--active'>
-            <a href='photo.html'>
+            <a href='photo.html' class='site-list__link'>
               Фото и видео
             </a>
           </li>
           <li class='site-list__item site-list__item--active'>
-            <a href='form.html'>
+            <a href='form.html' class='site-list__link'>
               Форма отзыва
             </a>
           </li>
           <li class='site-list__item site-list__item--active'>
-            <a href='#'>
+            <a href='#' class='site-list__link'>
               HTML ACADEMY
             </a>
           </li>
@@ -67,16 +67,17 @@
         <legend class='group-name__title'>Представьтесь:</legend>
         <div class='group-name__name'>
           <label for="name">Имя:</label>
-          <input class='group-name__placeholder' type="text" placeholder='Петр' name="name" id="name" required>
+          <input class='group-name__input' type="text" placeholder='Петр' name="name" id="name" required>
         </div>
 
         <div class='group-name__name'>
           <label for="surname">Фамилия:</label>
-          <input class='group-name__placeholder' type="text" placeholder='Иванов' name="surname" id="surname" required>
+          <input class='group-name__input' type="text" placeholder='Иванов' name="surname" id="surname" required>
         </div>
         <div class='group-name__name'>
           <label for="patronymic">Отчество:</label>
-          <input class='group-name__placeholder' type="text" placeholder='Александрович' name="patronymic" id="patronymic" required>
+          <input class='group-name__input' type="text" placeholder='Александрович' name="patronymic"
+            id="patronymic" required>
         </div>
 
 
@@ -88,13 +89,14 @@
         <legend class='group-contacts__title'>Контактная информация:</legend>
         <div class='group-contacts__contact-info'>
           <label for="phone-number">Контактный телефон:</label>
-          <input class='group-name__placeholder' type="tel" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" name="phone-number" id="phone-number"
-            placeholder='Введите телефон' required>
+          <input class='group-name__input' type="tel" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}"
+            name="phone-number" id="phone-number" placeholder='Введите телефон' required>
 
         </div>
         <div class='group-contacts__contact-info'>
           <label for="email">Электронная почта*:</label>
-          <input class='group-name__placeholder' type="email" name="email" id="email" placeholder='Введите e-mail' required>
+          <input class='group-name__input' type="email" name="email" id="email" placeholder='Введите e-mail'
+            required>
 
         </div>
 

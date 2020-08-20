@@ -1,4 +1,19 @@
 .inner-info-list__title {
+  position: relative;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 26px;
+  text-transform: uppercase;
+}
+
+.inner-info-list__item {
+  position: relative;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
 }
