@@ -1,0 +1,33 @@
+.page-main {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.page-main__title {
+  position: relative;
+  width: 285px;
+  min-height: 162px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.page-main__text {
+  position: relative;
+  width: 295px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
