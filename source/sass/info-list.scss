@@ -22,6 +22,7 @@
 }
 
 .info-list__item--grey {
+  flex-grow: 1;
   background-color: #eeeeee;
 }
 
@@ -95,3 +96,11 @@
 .info-list__item:nth-child(2n) img {
   order: -1;
 }
+
+.info-list__box {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+

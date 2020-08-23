@@ -1,7 +1,22 @@
 .photo-card {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+@media (min-width: 768px) {
+  .photo-card {
+    min-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo-card {
+    min-width: 1200px;
+  }
+}
+
 
 .photo-card__title {
   position: relative;
