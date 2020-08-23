@@ -18,19 +18,18 @@
 .main-nav__list {
   display: flex;
   flex-direction: column;
-
 }
 
 @media (min-width: 768px) {
   .main-nav__list {
     flex-direction: row;
-    flex-direction: space-between;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 1200px) {
   .main-nav__list {
     flex-direction: row;
-    flex-direction: space-between;
+    justify-content: space-between;
   }
 }
