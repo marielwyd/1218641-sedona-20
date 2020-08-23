@@ -5,7 +5,20 @@
 }
 
 .info-list__wrapper {
+  width: 100%;
   background-color: #81b3d2;
+}
+
+@media (min-width: 768px) {
+  .info-list__wrapper {
+    width: 256px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-list__wrapper {
+    width: 400px;
+  }
 }
 
 .info-list__item--grey {
@@ -68,4 +81,17 @@
 
 .info-list__item--grey .info-list__text {
   color: #000000;
+}
+
+.info-list__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-list__box img {
+  flex-grow: 1;
+}
+
+.info-list__item:nth-child(2n) img {
+  order: -1;
 }
