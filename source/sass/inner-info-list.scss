@@ -30,13 +30,13 @@
 
 @media (min-width: 768px) {
   .inner-info-list__item {
-    width: 33%;
+    width: calc(100% / 3);
   }
 }
 
 @media (min-width: 1200px) {
   .inner-info-list__item {
-    width: 33%;
+    width: calc(100% / 3);
   }
 }
 

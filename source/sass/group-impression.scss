@@ -1,18 +1,24 @@
 .group-impression {
   width: 100%;
   margin: 0 auto;
-  order: -1;
+  border: none;
 }
 
 @media (min-width: 768px) {
   .group-impression {
-    width: 45%;
+    width: 50%;
+    border: none;
+    box-sizing: border-box;
+    order: -1;
   }
 }
 
 @media (min-width: 1200px) {
   .group-impression {
-    width: 45%;
+    width: 50%;
+    border: none;
+    box-sizing: border-box;
+    order: -1;
   }
 }
 
