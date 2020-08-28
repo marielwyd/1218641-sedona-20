@@ -1,6 +1,14 @@
 .group-places {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
+  border: none;
+}
+
+.group-places_list {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .group-places__title {
@@ -18,14 +26,9 @@
   color: #000000;
 }
 
-.group-places_list {
-  min-width: 320px;
-  margin: 0 auto;
-}
-
 .group-places_list__item {
   position: relative;
-  width: 215px;
+  width: 100%;
   min-height: 26px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
@@ -34,4 +37,16 @@
   line-height: 26px;
   align-items: center;
   color: #000000;
+}
+
+@media (min-width: 768px) {
+  .group-places_list__item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .group-places_list__item {
+    width: 25%;
+  }
 }

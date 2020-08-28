@@ -1,6 +1,14 @@
 .group-contacts {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
+  border: none;
+}
+
+.group-contacts__wrapper {
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .group-contacts__title {
@@ -20,7 +28,7 @@
 
 .group-contacts__contact-info {
   position: relative;
-  width: 66px;
+  width: 100%;
   min-height: 26px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
@@ -30,6 +38,18 @@
   align-items: center;
   text-transform: uppercase;
   color: #333333;
+}
+
+@media (min-width: 768px) {
+  .group-contacts__contact-info {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .group-contacts__contact-info {
+    width: 50%;
+  }
 }
 
 .group-name__input {

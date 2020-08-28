@@ -1,6 +1,23 @@
 .group-name {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .group-name {
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .group-name {
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+  }
 }
 
 .group-name__title {

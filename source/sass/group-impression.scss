@@ -1,6 +1,25 @@
 .group-impression {
-  min-width: 320px;
+  width: 100%;
   margin: 0 auto;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .group-impression {
+    width: 50%;
+    border: none;
+    box-sizing: border-box;
+    order: -1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .group-impression {
+    width: 50%;
+    border: none;
+    box-sizing: border-box;
+    order: -1;
+  }
 }
 
 .group-impression__title {
