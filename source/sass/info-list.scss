@@ -24,6 +24,19 @@
 .info-list__item--grey {
   flex-grow: 1;
   background-color: #eeeeee;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .info-list__item--grey {
+    width: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-list__item--grey {
+    width: 33%;
+  }
 }
 
 .info-list__title {

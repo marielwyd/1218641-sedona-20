@@ -55,3 +55,35 @@
   text-transform: uppercase;
   color: #000000;
 }
+
+.photo-card__item---xl {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .photo-card__item---xl {
+    width: 648px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo-card__item---xl {
+    width: 1200px;
+  }
+}
+
+.photo-card__item---l {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .photo-card__item---l {
+    width: 324px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo-card__item---l {
+    width: 400px;
+  }
+}
